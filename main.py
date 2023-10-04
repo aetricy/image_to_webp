@@ -37,7 +37,7 @@ def convert_to_webp(source):
 
 def main():
     i=1
-    extensions = ('*.jpg', '*.jpeg', '*.png')
+    extensions = ('**/*.jpg', '**/*.jpeg', '**/*.png')
 
     files_list=[]
     for ext in extensions:
